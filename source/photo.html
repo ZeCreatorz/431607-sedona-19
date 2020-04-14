@@ -107,28 +107,18 @@
     </ul>
     <section class="video">
       <figure class="video__figure">
-        <video controls preload="metadata" width="321" height="201">
-          <source src="" type="video/mp4">
-          <source src="" type="video/ogg">
-          <source src="" type="video/webm">
-        </video>
-        <ul class="video__controls">
-          <li class="video__controls-item">
-            <button class="video_controls-button" type="button">
-              <span class="visually-hidden">Переиграть</span>
-            </button>
-          </li>
-          <li class="video__controls-item">
-            <button class="video_controls-button" type="button">
-              <span class="visually-hidden">Субтитры</span>
-            </button>
-          </li>
-          <li class="video__controls-item">
-            <button class="video_controls-button" type="button">
-              <span class="visually-hidden">Во весь экран</span>
-            </button>
-          </li>
-        </ul>
+        <picture controls preload="metadata" width="321" height="201">
+        </picture>
+        <button class="video__progress" type="button" aria-label="Перемотка"></button>
+        <div class="video__controls">
+          <button class="video_controls-button video__controls-button--play" type="button" aria-label="Переиграть">
+          </button>
+          <button class="video_controls-button video__controls-button--subtitle" type="button" aria-label="Субтитры">
+          </button>
+          <button class="video_controls-button video__controls-button--fullscreen" type="button"
+            aria-label="Во весь экран">
+          </button>
+        </div>
         <figcaption class="video__text">
           <p class="video__question">Все еще сомневаетесь?</p>
           <p class="video__about">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в
