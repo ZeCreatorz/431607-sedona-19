@@ -107,11 +107,18 @@
     </ul>
     <section class="video">
       <figure class="video__figure">
-        <video controls preload="metadata" width="321" height="201">
-          <source src="video/sedona.mp4" type="video/mp4">
-          <source src="video/sedona.ogg" type="video/ogg">
-          <source src="video/sedona.webm" type="video/webm">
-        </video>
+        <picture controls preload="metadata" width="321" height="201">
+        </picture>
+        <button class="video__progress" type="button" aria-label="Перемотка"></button>
+        <div class="video__controls">
+          <button class="video_controls-button video__controls-button--play" type="button" aria-label="Переиграть">
+          </button>
+          <button class="video_controls-button video__controls-button--subtitle" type="button" aria-label="Субтитры">
+          </button>
+          <button class="video_controls-button video__controls-button--fullscreen" type="button"
+            aria-label="Во весь экран">
+          </button>
+        </div>
         <figcaption class="video__text">
           <p class="video__question">Все еще сомневаетесь?</p>
           <p class="video__about">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в
