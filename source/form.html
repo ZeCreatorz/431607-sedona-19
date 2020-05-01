@@ -4,13 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="page-header">
     <nav class="main-nav">
       <a class="page-header__logo">
-        <img class="page-header__logo-image" src="https://via.placeholder.com/102x83" width="102" height="83"
+        <img class="page-header__logo-image" src="img/logo-sedona-mobile.svg" width="102" height="83"
           alt="Логотип города Седона">
       </a>
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
@@ -86,15 +87,15 @@
         <ul class="feedback__list">
           <li class="feedback__item field-text">
             <input class="field-text__value" id="positive" type="radio" name="reviews" value="positive" checked>
-            <label class="field-text__label" for="positive">Скорее положительное</label>
+            <label class="field-text__label field-text__radio" for="positive">Скорее положительное</label>
           </li>
           <li class="feedback__item field-text">
             <input class="field-text__value" id="negative" type="radio" name="reviews" value="negative">
-            <label class="field-text__label" for="negative">Скорее отрицательное</label>
+            <label class="field-text__label field-text__radio" for="negative">Скорее отрицательное</label>
           </li>
           <li class="feedback__item field-text">
             <input class="field-text__value" id="none" type="radio" name="reviews" value="none">
-            <label class="field-text__label" for="none">Затрудняюсь ответить</label>
+            <label class="field-text__label field-text__radio" for="none">Затрудняюсь ответить</label>
           </li>
         </ul>
       </fieldset>
@@ -105,26 +106,26 @@
         <ul class="feedback__list">
           <li class="feedback__item field-text">
             <input class="field-text__value" id="devilsbridge" type="checkbox" name="devilsbridge" checked>
-            <label class="field-text__label" for="devilsbridge">Мост Дьявола</label>
+            <label class="field-text__label field-text__checkbox" for="devilsbridge">Мост Дьявола</label>
           </li>
           <li class="feedback__item field-text">
             <input class="field-text__value" id="mountainbell" type="checkbox" name="mountainbell" checked>
-            <label class="field-text__label" for="mountainbell">Гора-Колокол</label>
+            <label class="field-text__label field-text__checkbox" for="mountainbell">Гора-Колокол</label>
           </li>
           <li class="feedback__item field-text">
             <input class="field-text__value" id="slidepark" type="checkbox" name="slidepark" checked>
-            <label class="field-text__label" for="slidepark">Слайд-парк</label>
+            <label class="field-text__label field-text__checkbox" for="slidepark">Слайд-парк</label>
           </li>
           <li class="feedback__item field-text">
             <input class="field-text__value" id="redrocks" type="checkbox" name="redrocks">
-            <label class="field-text__label" for="redrocks">Красные скалы</label>
+            <label class="field-text__label field-text__checkbox" for="redrocks">Красные скалы</label>
           </li>
         </ul>
       </fieldset>
       <div class="feedback__fieldset field-text">
-        <label class="field-text__label" for="emotions">Опишите свои эмоции:</label>
+        <label class="field-text__label field-text__description" for="emotions">Опишите свои эмоции:</label>
         <textarea class="field-text__area" id="emotions" name="emotions" cols="30" rows="7"
-          placeholder="Опишите подробно все свои восторги">
+          placeholder="Опишите подробно все свои восторги">Опишите подробно все свои восторги
         </textarea>
       </div>
       <p class="feedback__note">* — обязательные поля</p>

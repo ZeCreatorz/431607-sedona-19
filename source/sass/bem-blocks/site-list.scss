@@ -1,0 +1,18 @@
+.site-list {
+  list-style: none;
+}
+
+.site-list__link {
+  display: block;
+  min-width: 240px;
+  padding: 19px 93px 17px 92px;
+  font-size: $bold-font-size;
+  line-height: $site-list-line-height;
+  font-weight: $bold-weight;
+  text-align: center;
+
+  border-bottom: 1px solid rgba(1, 1, 1, 0.2);
+  background-color: $lightgreyblue;
+  color: $white;
+  text-transform: uppercase;
+}
