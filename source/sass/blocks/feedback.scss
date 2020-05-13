@@ -6,10 +6,12 @@
 
 .feedback__legend {
   margin: 0;
+  margin-bottom: 22px;
   padding: 0;
-  font-size: $bold-font-size;
+  font-size: $font-size-large;
   line-height: 26px;
-  font-weight: $bold-weight;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .feedback__list {
@@ -31,7 +33,7 @@
   min-width: 220px;
   font-size: 21px;
   line-height: 26px;
-  font-weight: $bold-weight;
+  font-weight: 700;
   color: $white;
   text-transform: uppercase;
   text-align: center;

@@ -1,0 +1,43 @@
+.field-text {
+  margin-bottom: 20px;
+  font-size: $font-size-large;
+  line-height: 26px;
+  font-weight: 700;
+  color: $black;
+}
+
+.field-text__area {
+  font-size: $font-size-large;
+  line-height: 26px;
+  font-weight: 700;
+  color: $black;
+}
+
+.field-text__description {
+  margin-bottom: 18px;
+  text-transform: uppercase;
+}
+
+.field-text__label--base {
+  margin-right: 14px;
+  font-size: $font-size-base;
+  font-weight: 400;
+  color: #333333;
+}
+
+.field-text__value {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  padding-top: 19px;
+  padding-bottom: 17px;
+  padding-left: 22px;
+  background-color: $whitethree;
+}
+
+.field-text__value::placeholder {
+  font-size: $font-size-large;
+  font-weight: 700;
+  opacity: 1;
+  color: $black;
+}

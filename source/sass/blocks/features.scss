@@ -1,13 +1,15 @@
 .features {
   margin: 0;
+  margin-top: 26px;
+  margin-bottom: 38px;
   padding: 0;
   list-style: none;
 }
 
 .features__title {
-  font-size: $bold-font-size;
+  font-size: $font-size-large;
   line-height: 26px;
-  font-weight: $bold-weight;
+  font-weight: 700;
   color: $black;
 }
 
@@ -15,4 +17,8 @@
   margin: 0;
   padding: 0;
   color: $darkgray;
+}
+
+.features__item {
+  background-color: $white;
 }
